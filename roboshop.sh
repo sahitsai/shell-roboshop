@@ -2,7 +2,7 @@
 
 SG_ID="sg-095ce32bd35b6cfa4"
 AMI_ID="ami-0220d79f3f480ecf5"
-ZONE_ID="Z05013202FKF0ZL12WAOP"
+ZONE_ID="ZZ047816028Z0VNU8ICVUQ"
 DOMAIN_NAME="sahit.space"
 
 for instance in $@
@@ -29,4 +29,5 @@ do
             --output text
         )
     fi 
+    echo "IP Address: $IP"
 done 
